@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [25/Nov/2017:00:21:02 +0800] "GET /reg_login/regist.jsp HTTP/1.1" 200 1913
+0:0:0:0:0:0:0:1 - - [25/Nov/2017:00:21:02 +0800] "GET /reg_login/css/reg.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Nov/2017:00:21:04 +0800] "GET /reg_login/regist.jsp HTTP/1.1" 200 1913
+0:0:0:0:0:0:0:1 - - [25/Nov/2017:00:21:17 +0800] "POST /reg_login/RegistServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [25/Nov/2017:00:21:17 +0800] "GET /reg_login/login.jsp HTTP/1.1" 200 1050
+0:0:0:0:0:0:0:1 - - [25/Nov/2017:00:21:17 +0800] "GET /reg_login/css/login.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [25/Nov/2017:00:21:21 +0800] "POST /reg_login/LoginServlet HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [25/Nov/2017:00:21:21 +0800] "GET /reg_login/success.jsp HTTP/1.1" 200 547
+0:0:0:0:0:0:0:1 - - [25/Nov/2017:00:21:21 +0800] "GET /reg_login/upload/e608e544f712412f996344c435551520.jpg HTTP/1.1" 200 5279069
+127.0.0.1 - - [25/Nov/2017:09:42:10 +0800] "GET / HTTP/1.1" 404 1070
+127.0.0.1 - - [25/Nov/2017:09:42:15 +0800] "GET /reg_login/ HTTP/1.1" 200 1048
+127.0.0.1 - - [25/Nov/2017:09:42:15 +0800] "GET /reg_login/css/login.css HTTP/1.1" 200 3682

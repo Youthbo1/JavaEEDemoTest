@@ -1,0 +1,37 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8" import="com.fyb.bean.*,com.fyb.db.*"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title></title>
+</head>
+<body>
+	<!-- 获取账号以及密码，并且需要去调用DBUtil当中的方法来判断是否存在指定的信息 
+		1、如果正确，DBUtil方法返回的值是true，显示成功页面
+		2、如果错误，false，显示错误消息
+		request：获取请求信息，包括请求信息。
+		getParameter(String name):可以通过一个控件的name属性来获取控件的值
+		
+		out:输出流对象，输出指定的信息。
+		println();
+	-->
+	<h3 align="center">
+		响应的字符编码集：<%=response.getCharacterEncoding()%></h3>
+
+	<%
+		String account = request.getParameter("account");
+		String password = request.getParameter("password");
+		Emp emp=new Emp(account,null,password,null);
+		boolean flag=DBUtil.selectEmpByAccountAndPassword(emp);
+		
+		if(flag){
+			out.println("正确");
+		}else{
+			out.println("cuowu");
+		}
+		
+	%>
+	
+</body>
+</html>

@@ -1,0 +1,5 @@
+package com.fyb.domain;
+
+public class User {
+
+}

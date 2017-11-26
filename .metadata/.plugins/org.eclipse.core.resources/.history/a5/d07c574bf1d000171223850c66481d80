@@ -1,0 +1,9 @@
+package com.fyb.bean;
+
+public class Emp {
+	private String account;
+	private String name;
+	private String password;
+	private String email;
+	
+}

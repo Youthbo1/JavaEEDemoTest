@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="E:\JavaEEWorkSpace\LoginListenerWeb"/>
+			<item value="E:\JavaEEWorkSpace\FilterDemo2\FilterDemo2"/>
+			<item value="E:\JavaEEWorkSpace\FilterDemo\FilterDemo"/>
+			<item value="E:\JavaEEWorkSpace\Rg"/>
+			<item value="C:\Users\Administrator\Desktop\慕课JAVAweb\步骤一：Java Web基础入门\5.Servlet入门\imooc_servlet1\imooc_servlet1"/>
+			<item value="C:\Users\Administrator\Desktop\慕课JAVAweb\步骤一：Java Web基础入门\1.JSP入门\HelloWeb\HelloWeb"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

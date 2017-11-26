@@ -1,0 +1,5 @@
+package com.fyb.db;
+
+public class DBUtil {
+
+}
